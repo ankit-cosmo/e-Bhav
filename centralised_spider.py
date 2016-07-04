@@ -32,7 +32,7 @@ for i in range(0,l):
 		amazon_spider.amazon_spider(item_type)
 		ebay_spider.ebay_spider(item_type)
 		snapdeal_spider.snapdeal_spider(item_type)
-		#nykaa_spider.nykaa_spider(item_type)
+		nykaa_spider.nykaa_spider(item_type)
 		name=''		
 		q+=1
 	i+=1
